@@ -1,0 +1,8 @@
+sir1=set(input('Primul sir de caractere: '))
+sir2=set(input('Al doile  sir de caractere: '))
+a=sir1.union(sir2)
+b=sir1.intersection(sir2)
+c=sir1.difference(sir2)
+print(a)
+print(b)
+print(c)
